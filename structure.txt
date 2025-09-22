@@ -1,0 +1,74 @@
+.
+├── Backend
+│   ├── app.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src
+│       ├── config
+│       │   ├── config.js
+│       │   └── monogo.config.js
+│       ├── controller
+│       │   ├── auth.controller.js
+│       │   ├── short_url.controller.js
+│       │   └── user.controller.js
+│       ├── dao
+│       │   ├── short_url.js
+│       │   └── user_dao.js
+│       ├── middleware
+│       │   └── auth.middleware.js
+│       ├── models
+│       │   ├── short_url.model.js
+│       │   └── User.model.js
+│       ├── routes
+│       │   ├── auth.routes.js
+│       │   ├── short_url.route.js
+│       │   └── user.routes.js
+│       ├── services
+│       │   ├── auth.service.js
+│       │   └── short_url.sevice.js
+│       └── utils
+│           ├── attachUser.js
+│           ├── errorHandler.js
+│           ├── helper.js
+│           └── tryCatchWrapper.js
+├── Frontend
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── README.md
+│   ├── src
+│   │   ├── api
+│   │   │   ├── shortUrlapi.js
+│   │   │   └── user.api.js
+│   │   ├── components
+│   │   │   ├── LoginForm.jsx
+│   │   │   ├── NavBar.jsx
+│   │   │   ├── RegisterForm.jsx
+│   │   │   ├── UrlForm.jsx
+│   │   │   └── UserUrl.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   ├── AuthPage.jsx
+│   │   │   ├── DashboardPage.jsx
+│   │   │   └── HomePage.jsx
+│   │   ├── RootLayout.jsx
+│   │   ├── routing
+│   │   │   ├── auth.route.js
+│   │   │   ├── dashboard.js
+│   │   │   ├── homepage.js
+│   │   │   └── routeTree.js
+│   │   ├── store
+│   │   │   ├── slice
+│   │   │   │   └── authSlice.js
+│   │   │   └── store.js
+│   │   └── utils
+│   │       ├── axiosInstance.js
+│   │       └── helper.js
+│   └── vite.config.js
+└── structure.txt
+
+21 directories, 51 files
